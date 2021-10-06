@@ -9,6 +9,10 @@ body {
     max-width: 100%;
     flex-direction: row;
     align-items: center;
+    position: fixed;
+    background-color: brown;
+    top: 0;
+
 }
 
 #header-img {
@@ -21,7 +25,7 @@ body {
 }
 
 .nav-link {
-    margin-left: 45px;
+    margin-left: 40px;
     color: black !important;
     font-size: 20px;
     text-decoration: none;
@@ -29,12 +33,27 @@ body {
 
 #title {
     text-align: center;
+    margin-top: 90px;
 }
 
 #form {
     text-align: center;
 }
 
+#features {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#features > p {
+    display: inline-block;
+    margin-left: 30px;
+
+
+}
+#features > i {
+    margin: 0 10px;
+}
 #video {
     text-align: center;
     margin: 0 auto;
